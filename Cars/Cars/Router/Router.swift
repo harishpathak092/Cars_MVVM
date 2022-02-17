@@ -10,10 +10,10 @@ import UIKit
 
 protocol Router {
     func route(
-          to routeID: RouteID,
-          from context: UIViewController,
-          parameters: Any?
-       )
+        to routeID: RouteID,
+        from context: UIViewController,
+        parameters: Any?
+    )
 }
 
 enum RouteID: String {
@@ -50,26 +50,25 @@ class Home_Router: Router {
     private func navigateFromMake(to routeID: RouteID, from context: UIViewController, parameters: Any?) {
         let modelVC = storyboard.instantiateViewController(withIdentifier: routeID.rawValue) as! ModelViewController
         let makeVC = context as! MakeViewController
-            let carModelVM = CarModelViewModel(modelDependency: makeVC.carMakeViewModel)
-            modelVC.carModelViewModel = carModelVM
-            makeVC.navigationController?.pushViewController(modelVC, animated: true)
+        let carModelVM = CarModelViewModel(modelDependency: makeVC.carMakeViewModel)
+        modelVC.carModelViewModel = carModelVM
+        makeVC.navigationController?.pushViewController(modelVC, animated: true)
     }
     
     private func navigateFromModels(to routeID: RouteID, from context: UIViewController, parameters: Any?) {
         let detailVC = storyboard.instantiateViewController(withIdentifier: routeID.rawValue) as! DetailViewController
         let modelVC = context as! ModelViewController
         let carDetailVM = CarDetailViewModel(detailDependency: modelVC.carModelViewModel!)
-            detailVC.carDetailViewModel = carDetailVM
-            modelVC.navigationController?.pushViewController(detailVC, animated: true)
+        detailVC.carDetailViewModel = carDetailVM
+        modelVC.navigationController?.pushViewController(detailVC, animated: true)
     }
     
     private func navigateFromDetails(to routeID: RouteID, from context: UIViewController, parameters: Any?) {
         let previewVC = storyboard.instantiateViewController(withIdentifier: routeID.rawValue) as! PreviewViewController
         let detailVC = context as! DetailViewController
         let previewViewModel = PreviewViewModel(previewDependency: detailVC.carDetailViewModel!)
-            previewVC.previewViewModel = previewViewModel
-            detailVC.navigationController?.pushViewController(previewVC, animated: true)
+        previewVC.previewViewModel = previewViewModel
+        detailVC.navigationController?.pushViewController(previewVC, animated: true)
     }
     
 }
-
