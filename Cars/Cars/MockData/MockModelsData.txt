@@ -1,0 +1,545 @@
+{
+    "totalNumber": 9,
+    "totalPages": 1,
+    "results": [{
+            "id": "Tesla001",
+            "makeId": 200001444,
+            "makeName": "Tesla",
+            "makeNiceName": "byton",
+            "makeNiceId": "tesla",
+            "name": "One",
+            "niceName": "mbyte",
+            "adTargetId": "one",
+            "niceId": "one",
+            "modelLinkCode": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i.Bj4m.V11iQ/v1/1200x-1.jpg",
+            "make": {
+                "id": 200001444,
+                "href": "/api/vehicle/v3/makes?id=200001444"
+            },
+            "modelYears": [{
+                "id": 401784083,
+                "name": "2022",
+                "year": 2022,
+                "publicationStates": [
+                    "NEW_USED"
+                ],
+                "href": "/api/vehicle/v3/modelYears?id=401784083"
+            }],
+            "attributeGroups": {
+                "MAIN": {
+                    "id": 1,
+                    "name": "MAIN",
+                    "properties": {
+                        "USE_IN_NEW": "Y",
+                        "EPI_CATEGORY_ID": "14"
+                    },
+                    "attributes": {
+                        "USE_IN_NEW": {
+                            "id": 10,
+                            "name": "USE_IN_NEW",
+                            "value": "Y"
+                        },
+                        "EPI_CATEGORY_ID": {
+                            "id": 730,
+                            "name": "EPI_CATEGORY_ID",
+                            "value": "14"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "PRIMARY_BODY_TYPE": [
+                    "Car"
+                ]
+            },
+            "categoryValues": [
+                "N/A"
+            ],
+            "publicationStates": [
+                "USED",
+                "NEW_USED",
+                "NEW"
+            ]
+        },
+        {
+            "id": "Tesla002",
+            "makeId": 200001444,
+            "makeName": "Tesla",
+            "makeNiceName": "dodge",
+            "makeNiceId": "tesla",
+            "name": "Two",
+            "niceName": "durango",
+            "adTargetId": "one",
+            "niceId": "one",
+            "modelLinkCode": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i.Bj4m.V11iQ/v1/1200x-1.jpg",
+            "make": {
+                "id": 200001444,
+                "href": "/api/vehicle/v3/makes?id=200001444"
+            },
+            "modelYears": [{
+                "id": 401784083,
+                "name": "2022",
+                "year": 2022,
+                "publicationStates": [
+                    "NEW_USED"
+                ],
+                "href": "/api/vehicle/v3/modelYears?id=401784083"
+            }],
+            "attributeGroups": {
+                "MAIN": {
+                    "id": 1,
+                    "name": "MAIN",
+                    "properties": {
+                        "USE_IN_NEW": "Y",
+                        "EPI_CATEGORY_ID": "14"
+                    },
+                    "attributes": {
+                        "USE_IN_NEW": {
+                            "id": 10,
+                            "name": "USE_IN_NEW",
+                            "value": "Y"
+                        },
+                        "EPI_CATEGORY_ID": {
+                            "id": 730,
+                            "name": "EPI_CATEGORY_ID",
+                            "value": "14"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "PRIMARY_BODY_TYPE": [
+                    "Car"
+                ]
+            },
+            "categoryValues": [
+                "N/A"
+            ],
+            "publicationStates": [
+                "USED",
+                "NEW_USED",
+                "NEW"
+            ]
+        },
+        {
+            "id": "Tesla003",
+            "makeId": 200001444,
+            "makeName": "Tesla",
+            "makeNiceName": "tesla",
+            "makeNiceId": "tesla",
+            "name": "Three",
+            "niceName": "one",
+            "adTargetId": "one",
+            "niceId": "one",
+            "modelLinkCode": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i.Bj4m.V11iQ/v1/1200x-1.jpg",
+            "make": {
+                "id": 200001444,
+                "href": "/api/vehicle/v3/makes?id=200001444"
+            },
+            "modelYears": [{
+                "id": 401784083,
+                "name": "2022",
+                "year": 2022,
+                "publicationStates": [
+                    "NEW_USED"
+                ],
+                "href": "/api/vehicle/v3/modelYears?id=401784083"
+            }],
+            "attributeGroups": {
+                "MAIN": {
+                    "id": 1,
+                    "name": "MAIN",
+                    "properties": {
+                        "USE_IN_NEW": "Y",
+                        "EPI_CATEGORY_ID": "14"
+                    },
+                    "attributes": {
+                        "USE_IN_NEW": {
+                            "id": 10,
+                            "name": "USE_IN_NEW",
+                            "value": "Y"
+                        },
+                        "EPI_CATEGORY_ID": {
+                            "id": 730,
+                            "name": "EPI_CATEGORY_ID",
+                            "value": "14"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "PRIMARY_BODY_TYPE": [
+                    "Car"
+                ]
+            },
+            "categoryValues": [
+                "N/A"
+            ],
+            "publicationStates": [
+                "USED",
+                "NEW_USED",
+                "NEW"
+            ]
+        },
+        {
+            "id": "Tesla004",
+            "makeId": 200001444,
+            "makeName": "Tesla",
+            "makeNiceName": "tesla",
+            "makeNiceId": "tesla",
+            "name": "Four",
+            "niceName": "one",
+            "adTargetId": "one",
+            "niceId": "one",
+            "modelLinkCode": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i.Bj4m.V11iQ/v1/1200x-1.jpg",
+            "make": {
+                "id": 200001444,
+                "href": "/api/vehicle/v3/makes?id=200001444"
+            },
+            "modelYears": [{
+                "id": 401784083,
+                "name": "2022",
+                "year": 2022,
+                "publicationStates": [
+                    "NEW_USED"
+                ],
+                "href": "/api/vehicle/v3/modelYears?id=401784083"
+            }],
+            "attributeGroups": {
+                "MAIN": {
+                    "id": 1,
+                    "name": "MAIN",
+                    "properties": {
+                        "USE_IN_NEW": "Y",
+                        "EPI_CATEGORY_ID": "14"
+                    },
+                    "attributes": {
+                        "USE_IN_NEW": {
+                            "id": 10,
+                            "name": "USE_IN_NEW",
+                            "value": "Y"
+                        },
+                        "EPI_CATEGORY_ID": {
+                            "id": 730,
+                            "name": "EPI_CATEGORY_ID",
+                            "value": "14"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "PRIMARY_BODY_TYPE": [
+                    "Car"
+                ]
+            },
+            "categoryValues": [
+                "N/A"
+            ],
+            "publicationStates": [
+                "USED",
+                "NEW_USED",
+                "NEW"
+            ]
+        },
+        {
+            "id": "Tesla005",
+            "makeId": 200001444,
+            "makeName": "Tesla",
+            "makeNiceName": "tesla",
+            "makeNiceId": "tesla",
+            "name": "Five",
+            "niceName": "one",
+            "adTargetId": "one",
+            "niceId": "one",
+            "modelLinkCode": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i.Bj4m.V11iQ/v1/1200x-1.jpg",
+            "make": {
+                "id": 200001444,
+                "href": "/api/vehicle/v3/makes?id=200001444"
+            },
+            "modelYears": [{
+                "id": 401784083,
+                "name": "2022",
+                "year": 2022,
+                "publicationStates": [
+                    "NEW_USED"
+                ],
+                "href": "/api/vehicle/v3/modelYears?id=401784083"
+            }],
+            "attributeGroups": {
+                "MAIN": {
+                    "id": 1,
+                    "name": "MAIN",
+                    "properties": {
+                        "USE_IN_NEW": "Y",
+                        "EPI_CATEGORY_ID": "14"
+                    },
+                    "attributes": {
+                        "USE_IN_NEW": {
+                            "id": 10,
+                            "name": "USE_IN_NEW",
+                            "value": "Y"
+                        },
+                        "EPI_CATEGORY_ID": {
+                            "id": 730,
+                            "name": "EPI_CATEGORY_ID",
+                            "value": "14"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "PRIMARY_BODY_TYPE": [
+                    "Car"
+                ]
+            },
+            "categoryValues": [
+                "N/A"
+            ],
+            "publicationStates": [
+                "USED",
+                "NEW_USED",
+                "NEW"
+            ]
+        },
+        {
+            "id": "Tesla006",
+            "makeId": 200001444,
+            "makeName": "Tesla",
+            "makeNiceName": "tesla",
+            "makeNiceId": "tesla",
+            "name": "Six",
+            "niceName": "one",
+            "adTargetId": "one",
+            "niceId": "one",
+            "modelLinkCode": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i.Bj4m.V11iQ/v1/1200x-1.jpg",
+            "make": {
+                "id": 200001444,
+                "href": "/api/vehicle/v3/makes?id=200001444"
+            },
+            "modelYears": [{
+                "id": 401784083,
+                "name": "2022",
+                "year": 2022,
+                "publicationStates": [
+                    "NEW_USED"
+                ],
+                "href": "/api/vehicle/v3/modelYears?id=401784083"
+            }],
+            "attributeGroups": {
+                "MAIN": {
+                    "id": 1,
+                    "name": "MAIN",
+                    "properties": {
+                        "USE_IN_NEW": "Y",
+                        "EPI_CATEGORY_ID": "14"
+                    },
+                    "attributes": {
+                        "USE_IN_NEW": {
+                            "id": 10,
+                            "name": "USE_IN_NEW",
+                            "value": "Y"
+                        },
+                        "EPI_CATEGORY_ID": {
+                            "id": 730,
+                            "name": "EPI_CATEGORY_ID",
+                            "value": "14"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "PRIMARY_BODY_TYPE": [
+                    "Car"
+                ]
+            },
+            "categoryValues": [
+                "N/A"
+            ],
+            "publicationStates": [
+                "USED",
+                "NEW_USED",
+                "NEW"
+            ]
+        },
+        {
+            "id": "Tesla007",
+            "makeId": 200001444,
+            "makeName": "Tesla",
+            "makeNiceName": "tesla",
+            "makeNiceId": "tesla",
+            "name": "Seven",
+            "niceName": "one",
+            "adTargetId": "one",
+            "niceId": "one",
+            "modelLinkCode": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i.Bj4m.V11iQ/v1/1200x-1.jpg",
+            "make": {
+                "id": 200001444,
+                "href": "/api/vehicle/v3/makes?id=200001444"
+            },
+            "modelYears": [{
+                "id": 401784083,
+                "name": "2022",
+                "year": 2022,
+                "publicationStates": [
+                    "NEW_USED"
+                ],
+                "href": "/api/vehicle/v3/modelYears?id=401784083"
+            }],
+            "attributeGroups": {
+                "MAIN": {
+                    "id": 1,
+                    "name": "MAIN",
+                    "properties": {
+                        "USE_IN_NEW": "Y",
+                        "EPI_CATEGORY_ID": "14"
+                    },
+                    "attributes": {
+                        "USE_IN_NEW": {
+                            "id": 10,
+                            "name": "USE_IN_NEW",
+                            "value": "Y"
+                        },
+                        "EPI_CATEGORY_ID": {
+                            "id": 730,
+                            "name": "EPI_CATEGORY_ID",
+                            "value": "14"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "PRIMARY_BODY_TYPE": [
+                    "Car"
+                ]
+            },
+            "categoryValues": [
+                "N/A"
+            ],
+            "publicationStates": [
+                "USED",
+                "NEW_USED",
+                "NEW"
+            ]
+        },
+        {
+            "id": "Tesla008",
+            "makeId": 200001444,
+            "makeName": "Tesla",
+            "makeNiceName": "tesla",
+            "makeNiceId": "tesla",
+            "name": "Eight",
+            "niceName": "one",
+            "adTargetId": "one",
+            "niceId": "one",
+            "modelLinkCode": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i.Bj4m.V11iQ/v1/1200x-1.jpg",
+            "make": {
+                "id": 200001444,
+                "href": "/api/vehicle/v3/makes?id=200001444"
+            },
+            "modelYears": [{
+                "id": 401784083,
+                "name": "2022",
+                "year": 2022,
+                "publicationStates": [
+                    "NEW_USED"
+                ],
+                "href": "/api/vehicle/v3/modelYears?id=401784083"
+            }],
+            "attributeGroups": {
+                "MAIN": {
+                    "id": 1,
+                    "name": "MAIN",
+                    "properties": {
+                        "USE_IN_NEW": "Y",
+                        "EPI_CATEGORY_ID": "14"
+                    },
+                    "attributes": {
+                        "USE_IN_NEW": {
+                            "id": 10,
+                            "name": "USE_IN_NEW",
+                            "value": "Y"
+                        },
+                        "EPI_CATEGORY_ID": {
+                            "id": 730,
+                            "name": "EPI_CATEGORY_ID",
+                            "value": "14"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "PRIMARY_BODY_TYPE": [
+                    "Car"
+                ]
+            },
+            "categoryValues": [
+                "N/A"
+            ],
+            "publicationStates": [
+                "USED",
+                "NEW_USED",
+                "NEW"
+            ]
+        },
+        {
+            "id": "Tesla009",
+            "makeId": 200001444,
+            "makeName": "Tesla",
+            "makeNiceName": "tesla",
+            "makeNiceId": "tesla",
+            "name": "Nine",
+            "niceName": "one",
+            "adTargetId": "one",
+            "niceId": "one",
+            "modelLinkCode": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i.Bj4m.V11iQ/v1/1200x-1.jpg",
+            "make": {
+                "id": 200001444,
+                "href": "/api/vehicle/v3/makes?id=200001444"
+            },
+            "modelYears": [{
+                "id": 401784083,
+                "name": "2022",
+                "year": 2022,
+                "publicationStates": [
+                    "NEW_USED"
+                ],
+                "href": "/api/vehicle/v3/modelYears?id=401784083"
+            }],
+            "attributeGroups": {
+                "MAIN": {
+                    "id": 1,
+                    "name": "MAIN",
+                    "properties": {
+                        "USE_IN_NEW": "Y",
+                        "EPI_CATEGORY_ID": "14"
+                    },
+                    "attributes": {
+                        "USE_IN_NEW": {
+                            "id": 10,
+                            "name": "USE_IN_NEW",
+                            "value": "Y"
+                        },
+                        "EPI_CATEGORY_ID": {
+                            "id": 730,
+                            "name": "EPI_CATEGORY_ID",
+                            "value": "14"
+                        }
+                    }
+                }
+            },
+            "categories": {
+                "PRIMARY_BODY_TYPE": [
+                    "Car"
+                ]
+            },
+            "categoryValues": [
+                "N/A"
+            ],
+            "publicationStates": [
+                "USED",
+                "NEW_USED",
+                "NEW"
+            ]
+        }
+    ]
+}
