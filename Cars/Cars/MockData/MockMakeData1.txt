@@ -1,0 +1,175 @@
+{
+    "totalNumber": 10,
+    "totalPages": 2,
+    "results": [{
+            "id": 1,
+            "name": "Honda",
+            "niceName": "honda",
+            "adTargetId": "geo",
+            "niceId": "geo",
+            "useInUsed": "Y",
+            "useInNew": "N",
+            "useInPreProduction": "N",
+            "useInFuture": "N",
+            "models": [{
+                "id": "Geo_Prizm",
+                "name": "Prizm",
+                "niceName": "prizm",
+                "href": "/api/vehicle/v3/models?id=Geo_Prizm"
+            }]
+        },
+        {
+            "id": 2,
+            "name": "Tesla",
+            "niceName": "geo",
+            "adTargetId": "geo",
+            "niceId": "geo",
+            "useInUsed": "Y",
+            "useInNew": "N",
+            "useInPreProduction": "N",
+            "useInFuture": "N",
+            "models": [{
+                "id": "Geo_Prizm",
+                "name": "Prizm",
+                "niceName": "prizm",
+                "href": "/api/vehicle/v3/models?id=Geo_Prizm"
+            }]
+        },
+        {
+            "id": 3,
+            "name": "Tata",
+            "niceName": "geo",
+            "adTargetId": "geo",
+            "niceId": "geo",
+            "useInUsed": "Y",
+            "useInNew": "N",
+            "useInPreProduction": "N",
+            "useInFuture": "N",
+            "models": [{
+                "id": "Geo_Prizm",
+                "name": "Prizm",
+                "niceName": "prizm",
+                "href": "/api/vehicle/v3/models?id=Geo_Prizm"
+            }]
+        },
+        {
+            "id": 4,
+            "name": "Maruti",
+            "niceName": "geo",
+            "adTargetId": "geo",
+            "niceId": "geo",
+            "useInUsed": "Y",
+            "useInNew": "N",
+            "useInPreProduction": "N",
+            "useInFuture": "N",
+            "models": [{
+                "id": "Geo_Prizm",
+                "name": "Prizm",
+                "niceName": "prizm",
+                "href": "/api/vehicle/v3/models?id=Geo_Prizm"
+            }]
+        },
+        {
+            "id": 5,
+            "name": "Hyndai",
+            "niceName": "geo",
+            "adTargetId": "geo",
+            "niceId": "geo",
+            "useInUsed": "Y",
+            "useInNew": "N",
+            "useInPreProduction": "N",
+            "useInFuture": "N",
+            "models": [{
+                "id": "Geo_Prizm",
+                "name": "Prizm",
+                "niceName": "prizm",
+                "href": "/api/vehicle/v3/models?id=Geo_Prizm"
+            }]
+        },
+        {
+            "id": 6,
+            "name": "Geo",
+            "niceName": "geo",
+            "adTargetId": "geo",
+            "niceId": "geo",
+            "useInUsed": "Y",
+            "useInNew": "N",
+            "useInPreProduction": "N",
+            "useInFuture": "N",
+            "models": [{
+                "id": "Geo_Prizm",
+                "name": "Prizm",
+                "niceName": "prizm",
+                "href": "/api/vehicle/v3/models?id=Geo_Prizm"
+            }]
+        },
+        {
+            "id": 7,
+            "name": "Nissan",
+            "niceName": "geo",
+            "adTargetId": "geo",
+            "niceId": "geo",
+            "useInUsed": "Y",
+            "useInNew": "N",
+            "useInPreProduction": "N",
+            "useInFuture": "N",
+            "models": [{
+                "id": "Geo_Prizm",
+                "name": "Prizm",
+                "niceName": "prizm",
+                "href": "/api/vehicle/v3/models?id=Geo_Prizm"
+            }]
+        },
+        {
+            "id": 8,
+            "name": "Audi",
+            "niceName": "Audi",
+            "adTargetId": "geo",
+            "niceId": "geo",
+            "useInUsed": "Y",
+            "useInNew": "N",
+            "useInPreProduction": "N",
+            "useInFuture": "N",
+            "models": [{
+                "id": "Geo_Prizm",
+                "name": "Prizm",
+                "niceName": "prizm",
+                "href": "/api/vehicle/v3/models?id=Geo_Prizm"
+            }]
+        },
+        {
+            "id": 9,
+            "name": "BMW",
+            "niceName": "geo",
+            "adTargetId": "geo",
+            "niceId": "geo",
+            "useInUsed": "Y",
+            "useInNew": "N",
+            "useInPreProduction": "N",
+            "useInFuture": "N",
+            "models": [{
+                "id": "Geo_Prizm",
+                "name": "Prizm",
+                "niceName": "prizm",
+                "href": "/api/vehicle/v3/models?id=Geo_Prizm"
+            }]
+        },
+        {
+            "id": 10,
+            "name": "Tiago",
+            "niceName": "geo",
+            "adTargetId": "geo",
+            "niceId": "geo",
+            "useInUsed": "Y",
+            "useInNew": "N",
+            "useInPreProduction": "N",
+            "useInFuture": "N",
+            "models": [{
+                "id": "Geo_Prizm",
+                "name": "Prizm",
+                "niceName": "prizm",
+                "href": "/api/vehicle/v3/models?id=Geo_Prizm"
+            }]
+        }
+    ]
+}
