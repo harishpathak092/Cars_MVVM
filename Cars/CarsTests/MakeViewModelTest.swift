@@ -41,7 +41,7 @@ class MakeViewModelTest: XCTestCase {
     }
     
     func testCarMakeNiceName() {
-        XCTAssertTrue(self.makeViewModel?.carMakeNiceName(at: IndexPath(row: 0, section: 0)) == "Audi", "Incorrect make Id fetched.")
+        XCTAssertTrue(self.makeViewModel?.carMakeNiceName(at: IndexPath(row: 0, section: 0)) == "Audi", "Incorrect nice make name fetched.")
     }
     
     func fetchMockData() {
