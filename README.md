@@ -1,6 +1,8 @@
 # Cars_MVVM
 This is an application made in swift with MVVM design pattern which showcases car's makes, models and details.
 
+Note: Please add api_key for APIs access in Network.swift file.
+
 # Here are some screenshots from the application
 
 
