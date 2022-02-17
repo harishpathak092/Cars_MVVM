@@ -61,11 +61,11 @@ class DetailViewController: UIViewController {
     
     
     @IBAction func showExteriorImages(_ sender: Any) {
-        Home_Router.shared.route(to: .preview, from: self, parameters: true)
+        self.carDetailViewModel?.navigateToPreview(from: self, with: true)
     }
     
     @IBAction func showInteriorImages(_ sender: Any) {
-        Home_Router.shared.route(to: .preview, from: self, parameters: false)
+        self.carDetailViewModel?.navigateToPreview(from: self, with: false)
     }
     
 }

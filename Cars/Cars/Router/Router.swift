@@ -50,36 +50,25 @@ class Home_Router: Router {
     private func navigateFromMake(to routeID: RouteID, from context: UIViewController, parameters: Any?) {
         let modelVC = storyboard.instantiateViewController(withIdentifier: routeID.rawValue) as! ModelViewController
         let makeVC = context as! MakeViewController
-        if let indexPath = parameters as? IndexPath {
-            modelVC.carModelViewModel = makeVC.carMakeViewModel.carModelViewModel(for: indexPath)
+            let carModelVM = CarModelViewModel(modelDependency: makeVC.carMakeViewModel)
+            modelVC.carModelViewModel = carModelVM
             makeVC.navigationController?.pushViewController(modelVC, animated: true)
-        } else {
-            print("error while navigating to models")
-        }
     }
     
     private func navigateFromModels(to routeID: RouteID, from context: UIViewController, parameters: Any?) {
         let detailVC = storyboard.instantiateViewController(withIdentifier: routeID.rawValue) as! DetailViewController
         let modelVC = context as! ModelViewController
-        if let indexPath = parameters as? IndexPath {
-            detailVC.carDetailViewModel = modelVC.carModelViewModel?.detailViewModel(at: indexPath)
+        let carDetailVM = CarDetailViewModel(detailDependency: modelVC.carModelViewModel!)
+            detailVC.carDetailViewModel = carDetailVM
             modelVC.navigationController?.pushViewController(detailVC, animated: true)
-        } else {
-            print("error while navigating to details")
-        }
     }
     
     private func navigateFromDetails(to routeID: RouteID, from context: UIViewController, parameters: Any?) {
         let previewVC = storyboard.instantiateViewController(withIdentifier: routeID.rawValue) as! PreviewViewController
         let detailVC = context as! DetailViewController
-        if let exterior = parameters as? Bool {
-            let previewViewModel = detailVC.carDetailViewModel?.previewViewModel(for: exterior)
+        let previewViewModel = PreviewViewModel(previewDependency: detailVC.carDetailViewModel!)
             previewVC.previewViewModel = previewViewModel
             detailVC.navigationController?.pushViewController(previewVC, animated: true)
-            
-        } else {
-            print("error while navigating to preview")
-        }
     }
     
 }

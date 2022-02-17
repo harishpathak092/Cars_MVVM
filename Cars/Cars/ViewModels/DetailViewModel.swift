@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol DetailDependency {
     func makeNiceName() -> String
@@ -76,9 +77,9 @@ class CarDetailViewModel {
         return self.carModelDetail.value?.results.first ?? nil
     }
     
-    func previewViewModel(for exteriorImages: Bool) -> PreviewViewModel {
-        self.exteriorImages = exteriorImages
-        return PreviewViewModel(previewDependency: self)
+    func navigateToPreview(from vc: UIViewController, with exteriorImage: Bool) {
+        self.exteriorImages = exteriorImage
+        Home_Router.shared.route(to: .preview, from: vc, parameters: nil)
     }
 }
 

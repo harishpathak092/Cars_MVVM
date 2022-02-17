@@ -79,10 +79,9 @@ class CarMakeViewModel {
         return indexPath.row < numberOfRows() ? self.sortedMakes[indexPath.row].niceName : "Unknown"
     }
     
-    func carModelViewModel(for indexPath: IndexPath) -> CarModelViewModel {
+    func navigateToModels(from viewController: UIViewController, with indexPath: IndexPath) {
         selectedIndexPath = indexPath
-        let carModelVM = CarModelViewModel(modelDependency: self)
-        return carModelVM
+        Home_Router.shared.route(to: .models, from: viewController, parameters: nil)
     }
 }
 

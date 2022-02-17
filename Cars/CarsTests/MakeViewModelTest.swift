@@ -44,11 +44,6 @@ class MakeViewModelTest: XCTestCase {
         XCTAssertTrue(self.makeViewModel?.carMakeNiceName(at: IndexPath(row: 0, section: 0)) == "Audi", "Incorrect make Id fetched.")
     }
     
-    func testModelViewModelForIndexPath() {
-        let modelViewModel = self.makeViewModel?.carModelViewModel(for:IndexPath(row: 0, section: 0))
-        XCTAssertNotNil(modelViewModel, "ModelViewModel object not created")
-    }
-    
     func fetchMockData() {
         self.makeViewModel?.carMake.value = TestUtility.shared.mockedMakeData()
     }

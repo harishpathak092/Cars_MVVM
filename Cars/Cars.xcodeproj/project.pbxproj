@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5D1D875B27BE05BE0096CACC /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D875A27BE05BE0096CACC /* Router.swift */; };
+		5D1D875F27BE64B50096CACC /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D875A27BE05BE0096CACC /* Router.swift */; };
+		5D1D876027BE65180096CACC /* MakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8469027BAA3C000A279CE /* MakeViewController.swift */; };
+		5D1D876127BE651B0096CACC /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8469227BAA3D400A279CE /* ModelViewController.swift */; };
+		5D1D876227BE651D0096CACC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8469427BAA3E100A279CE /* DetailViewController.swift */; };
+		5D1D876327BE65200096CACC /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF846C127BC013400A279CE /* PreviewViewController.swift */; };
+		5D1D876427BE65420096CACC /* ModelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF846B327BBB20600A279CE /* ModelCell.swift */; };
 		5DBE3B1127BD49BA00107103 /* MockMakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBE3B1027BD49BA00107103 /* MockMakeModel.swift */; };
 		5DBE3B1327BD4A4D00107103 /* MockDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBE3B1227BD4A4D00107103 /* MockDetailModel.swift */; };
 		5DBE3B1527BD4AA100107103 /* MockCarModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBE3B1427BD4AA100107103 /* MockCarModels.swift */; };
@@ -436,12 +442,18 @@
 			files = (
 				5DF846A827BBA2D100A279CE /* MakeViewModelTest.swift in Sources */,
 				5DF846AB27BBA31B00A279CE /* CarMakeViewModel.swift in Sources */,
+				5D1D876127BE651B0096CACC /* ModelViewController.swift in Sources */,
+				5D1D876327BE65200096CACC /* PreviewViewController.swift in Sources */,
 				5DBE3B2027BD93CC00107103 /* MockCarModels.swift in Sources */,
+				5D1D876427BE65420096CACC /* ModelCell.swift in Sources */,
 				5DF846BE27BBE57E00A279CE /* DetailsViewModelTest.swift in Sources */,
 				5DF846B027BBA37300A279CE /* Utility.swift in Sources */,
+				5D1D876027BE65180096CACC /* MakeViewController.swift in Sources */,
 				5DF846AD27BBA34400A279CE /* Bindable.swift in Sources */,
 				5DF846C727BC132D00A279CE /* PreviewViewModel.swift in Sources */,
 				5DF846AA27BBA2E100A279CE /* ModelViewModelTest.swift in Sources */,
+				5D1D876227BE651D0096CACC /* DetailViewController.swift in Sources */,
+				5D1D875F27BE64B50096CACC /* Router.swift in Sources */,
 				5DF846BF27BBE66400A279CE /* DetailViewModel.swift in Sources */,
 				5DBE3B1E27BD93BE00107103 /* MockMakeModel.swift in Sources */,
 				5DF846C627BC12AA00A279CE /* PreviewViewModelTest.swift in Sources */,
