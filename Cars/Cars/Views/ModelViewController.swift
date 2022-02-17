@@ -98,6 +98,6 @@ extension ModelViewController: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        Home_Router.shared.route(to: .details, from: self, parameters: indexPath)
+        self.carModelViewModel?.navigateToDetails(from: self, with: indexPath)
     }
 }

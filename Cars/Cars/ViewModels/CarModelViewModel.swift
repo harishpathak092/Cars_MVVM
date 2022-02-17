@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol ModelDependency {
     func carMakeNiceName() -> String
@@ -111,10 +112,9 @@ class CarModelViewModel {
         return indexPath.row < numberOfRows() ? self.latestModels[indexPath.row] : nil
     }
     
-    func detailViewModel(at indexPath: IndexPath) -> CarDetailViewModel? {
+    func navigateToDetails(from viewController: UIViewController, with indexPath:IndexPath) {
         self.selectedIndexPath = indexPath
-        let detailViewModel = CarDetailViewModel(detailDependency: self)
-        return detailViewModel
+        Home_Router.shared.route(to: .details, from: viewController, parameters: nil)
     }
 }
 

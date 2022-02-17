@@ -63,7 +63,7 @@ extension MakeViewController: UITableViewDataSource {
 
 extension MakeViewController : UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        Home_Router.shared.route(to: .models, from: self, parameters: indexPath)
+        self.carMakeViewModel.navigateToModels(from: self, with: indexPath)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
