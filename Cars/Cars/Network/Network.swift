@@ -16,7 +16,7 @@ enum Endpoints: String {
 class Network {
     static let shared = Network()
     private let baseUrl: String = "https://api.edmunds.com/api/vehicle/v3/"
-    private let api_key: String = "?api_key=2ep93tpnyh6p5hgaxmp6pasq"
+    private let api_key: String = "?api_key={add_your_api_key}"
     
     func fetchGenericJSONData<T: Decodable>(urlString: String, completion: @escaping (T?, Error?) -> ()) {
         guard let url = URL(string: urlString) else { return }
